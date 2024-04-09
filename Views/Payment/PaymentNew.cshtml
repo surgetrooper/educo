@@ -1,0 +1,60 @@
+﻿@model PaymentClass
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Razorpay .Net Sample App</title>
+</head>
+<body>
+    <button id="rzp-button1">Pay with Razorpay</button>
+    <form action="/Payment/InitiateOrder" method="post" name="razorpayForm">
+        <input id="razorpay_payment_id" type="hidden" name="razorpay_payment_id" />
+        <input id="razorpay_order_id" type="hidden" name="razorpay_order_id" />
+        <input id="razorpay_signature" type="hidden" name="razorpay_signature" />
+    </form>
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var options = {
+            "name": "@Html.Raw(Model.Customername)",
+            "description": "Buy Green Tea",
+            "order_id": "@ViewBag.OrderId",
+            "image": "https://example.com/your_logo",
+            "prefill": {
+                "name": "@Html.Raw(Model.Customername)",
+                "email": "@Html.Raw(Model.Email)",
+                "contact": "@Html.Raw(Model.Mobile)"
+            },
+            "notes": {
+                "address": "Hello World"
+            },
+            "theme": {
+                "color": "#3399cc"
+            }
+        };
+
+        options.theme.image_padding = false;
+        options.handler = function (response) {
+            document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+            document.getElementById('razorpay_order_id').value = response.razorpay_order_id;
+            document.getElementById('razorpay_signature').value = response.razorpay_signature;
+            document.razorpayForm.submit();
+        };
+
+        options.modal = {
+            ondismiss: function () {
+                console.log("This code runs when the popup is closed");
+            },
+            escape: true,
+            backdropclose: false
+        };
+
+        var rzp = new Razorpay(options);
+
+        document.getElementById('rzp-button1').onclick = function (e) {
+            rzp.open();
+            e.preventDefault();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@model PaymentClass
+
+<form asp-controller="Payment" asp-action="InitiateOrder" method="post">
+    <div class="form-group">
+        <label asp-for="Customername" class="control-label"></label>
+        <input asp-for="Customername" class="form-control" />
+        <span asp-validation-for="Customername" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Mobile" class="control-label"></label>
+        <input asp-for="Mobile" class="form-control" />
+        <span asp-validation-for="Mobile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TotalAmount" class="control-label"></label>
+        <input asp-for="TotalAmount" class="form-control" />
+        <span asp-validation-for="TotalAmount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Proceed to Pay" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
