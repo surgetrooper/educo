@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment trial", "Payment trial\Payment trial.csproj", "{9FF0186C-7536-412A-A194-42AC5B1C5F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF0186C-7536-412A-A194-42AC5B1C5F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF0186C-7536-412A-A194-42AC5B1C5F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF0186C-7536-412A-A194-42AC5B1C5F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF0186C-7536-412A-A194-42AC5B1C5F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A39384D-EF0C-4A77-A60C-864D685CC129}
+	EndGlobalSection
+EndGlobal
