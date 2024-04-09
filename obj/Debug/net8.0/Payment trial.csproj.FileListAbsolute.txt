@@ -1,0 +1,35 @@
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.csproj.AssemblyReference.cache
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.AssemblyInfoInputs.cache
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.AssemblyInfo.cs
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.csproj.CoreCompileInputs.cache
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.RazorAssemblyInfo.cache
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.RazorAssemblyInfo.cs
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\appsettings.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Payment trial.staticwebassets.runtime.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Payment trial.exe
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Payment trial.deps.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Payment trial.runtimeconfig.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Payment trial.dll
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Payment trial.pdb
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\aksha\source\repos\Payment trial\Payment trial\bin\Debug\net8.0\Razorpay.dll
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets\msbuild.Payment trial.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets\msbuild.build.Payment trial.props
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Payment trial.props
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Payment trial.props
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\scopedcss\bundle\Payment trial.styles.css
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\scopedcss\projectbundle\Payment trial.bundle.scp.css
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment .A798CFB5.Up2Date
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.dll
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\refint\Payment trial.dll
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.pdb
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\Payment trial.genruntimeconfig.cache
+C:\Users\aksha\source\repos\Payment trial\Payment trial\obj\Debug\net8.0\ref\Payment trial.dll
